@@ -42,7 +42,7 @@ class Main extends React.Component {
           <p>info@timschwalbe.de</p>
           <ul className="icons">
             <li><a href="https://github.com/Tim-Schwalbe" className="icon fa-github"><span className="label">GitHub</span></a></li>
-            <li><a href="https://www.linkedin.com/in/tim-schwalbe-8898508a/" className="icon fa-linkedin-in"><span className="label">LinkedIn</span></a></li>
+            <li><a href="https://www.linkedin.com/in/tim-schwalbe-8898508a/" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
             <li><a href="https://www.xing.com/profile/Tim_Schwalbe/cv" className="icon fa-xing"><span className="label">Xing</span></a></li>
           </ul>
           {close}
