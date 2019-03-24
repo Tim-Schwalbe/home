@@ -14,7 +14,6 @@ class Main extends React.Component {
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
-          <span className="image main"><img src={pic01} alt="" /></span>
           <p>Hi!</p>
           {close}
         </article>
@@ -34,7 +33,6 @@ class Main extends React.Component {
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
-          <span className="image main"><img src={pic03} alt="" /></span>
           <p></p>
           {close}
         </article>
@@ -43,10 +41,9 @@ class Main extends React.Component {
           <h2 className="major">Contact</h2>
           <p>info@timschwalbe.de</p>
           <ul className="icons">
-            <li><a href="#" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
-            <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
-            <li><a href="#" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
-            <li><a href="#" className="icon fa-github"><span className="label">GitHub</span></a></li>
+            <li><a href="https://github.com/Tim-Schwalbe" className="icon fa-github"><span className="label">GitHub</span></a></li>
+            <li><a href="https://www.linkedin.com/in/tim-schwalbe-8898508a/" className="icon fa-linkedin-in"><span className="label">LinkedIn</span></a></li>
+            <li><a href="https://www.xing.com/profile/Tim_Schwalbe/cv" className="icon fa-xing"><span className="label">Xing</span></a></li>
           </ul>
           {close}
         </article>
